@@ -1,0 +1,7 @@
+name = "passexample"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Secrets (set with `wrangler secret put`, or in .env locally):
+#   STRIPE_SECRET_KEY  – sk_test_...
+#   SESSION_SECRET     – any long random string, used to sign the session cookie
