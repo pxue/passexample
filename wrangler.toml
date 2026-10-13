@@ -5,3 +5,9 @@ compatibility_date = "2025-09-01"
 # Secrets (set with `wrangler secret put`, or in .env locally):
 #   STRIPE_SECRET_KEY  – sk_test_...
 #   SESSION_SECRET     – any long random string, used to sign the session cookie
+#   STRIPE_WEBHOOK_SECRET – whsec_... (from the webhook endpoint, or `stripe listen` locally)
+
+[[d1_databases]]
+binding = "DB"
+database_name = "passexample"
+database_id = "505bd8ca-2f7b-4f0d-ab7a-a9ce4307ac0e"
